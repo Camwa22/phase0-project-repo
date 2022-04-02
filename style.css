@@ -1,3 +1,13 @@
 body {
-    background: blue;
+    background: rgb(25, 125, 206);
   }
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  font-weight: unset;
+  font-size: 100px;  
+  width: max-content;
+  height: 50px;
+  margin: 3%;
+  }
+
