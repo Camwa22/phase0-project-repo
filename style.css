@@ -70,22 +70,26 @@ header {
     margin-left: auto;
     margin-right: auto;
     margin-top: 85px;
+    margin-bottom: auto;
     width: 650px;
     position: absolute;
     top: 1000px;
     right: 300px;
-   }
+    }
 
    #quest1 {
+    display: inline-block
+   }
+  
+   #quest2 {
      
    }
 
    #quest3 {
-     margin-bottom: 5px;
+    
    }
 
-
-   footer {
+    footer {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     background-color: rgb(25, 125,206);
