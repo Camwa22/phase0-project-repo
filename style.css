@@ -43,7 +43,7 @@ header {
     right: 850px;
  
   } 
-   iframe {
+   figure {
     display: block;
     float: right;
     margin-left: auto;
@@ -51,40 +51,60 @@ header {
     margin-top: 85px;
     width: 650px;
     position: absolute;
-    top: 700px;
-    right: 850px;
+    top: 600px;
+    right: 300px;
    }
 
    figcaption {
      font-family: Arial, Helvetica, sans-serif;
      font-size: 15px;
+     text-align:calc(match-parent)
+     
    }
 
    form {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
+    display: block;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 85px;
+    width: 650px;
+    position: absolute;
+    top: 1000px;
+    right: 300px;
    }
+
+   #quest1 {
+     
+   }
+
+   #quest3 {
+     margin-bottom: 5px;
+   }
+
 
    footer {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     background-color: rgb(25, 125,206);
     width: 1500px;
-    height: 120px;
+    height: 110px;
     margin-bottom: 40px;
-    padding-top: 40px
-   }
+    bottom: 0;
+    padding-top: 40px;
+    position: relative;
+     }
 
    #contact {
-    width: auto;
-    margin-left: 250px;
-   }
+    width: 50%;
+    float: right;
+    }
 
    #socials {
-    width: auto;
-    margin-right: 650px;
-    margin-left: 850px;
-    margin-bottom: 0px;
+    width: 50%;
+    float: right;
     }
  
 
